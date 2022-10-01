@@ -1,0 +1,40 @@
+body {
+    background-color:gray;
+}
+
+.grid-item{
+    margin:40px;
+}
+.grid-container{
+    display:grid;
+    grid-template-columns: repeat(4, 200px);
+    background-color:aquamarine;
+}
+
+.grid-item-1{
+    background-color:lightblue;
+    height:200px;
+    width:200px;
+    outline: 3px solid black;
+}
+
+.grid-item-2{
+    background-color:blueviolet;
+    height:200px;
+    width:200px;
+    outline: 3px solid black;
+}
+
+.grid-item-3{
+    background-color:pink;
+    height:200px;
+    width:200px;
+    outline: 3px solid black;
+}
+
+.grid-item-4{
+    background-color:violet;
+    height:200px;
+    width:200px;
+    outline: 3px solid black;
+}
