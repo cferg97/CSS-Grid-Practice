@@ -3,11 +3,13 @@ body {
 }
 
 .grid-item{
-    margin:40px;
+    margin:0 auto;
+    margin-top:10px;
 }
 .grid-container{
-    display:grid;
-    grid-template-columns: repeat(4, 200px);
+    grid-template-columns: 200px 200px;
+    grid-auto-rows:minmax (150px, auto);
+    grid-gap:10px;
     background-color:aquamarine;
 }
 
@@ -16,6 +18,7 @@ body {
     height:200px;
     width:200px;
     outline: 3px solid black;
+    transition: box-shadow 0.5s;
 }
 
 .grid-item-2{
@@ -37,4 +40,8 @@ body {
     height:200px;
     width:200px;
     outline: 3px solid black;
+}
+
+.grid-item-1:hover{
+    box-shadow: 0 5px 20px black;
 }
